@@ -1,0 +1,96 @@
+@media (max-width:430px){
+
+/* CONTENEDOR */
+.ancho{
+    width:95%;
+}
+
+/* ================= HEADER ================= */
+
+.encabezado{
+    padding:15px;
+    position:relative;
+}
+
+.encabezado nav{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+/* LOGO */
+.logo{
+    position:static;
+    transform:none;
+}
+
+/* MENU */
+.opciones{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:white;
+    padding:20px;
+    z-index:999;
+}
+
+.opciones.show{
+    display:flex;
+}
+
+/* HAMBURGUESA */
+.hamburguesa{
+    display:block;
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:30px;
+    cursor:pointer;
+}
+
+/* TELEFONO */
+.telefono{
+    display:none;
+}
+
+/* ================= CONTACTO ================= */
+
+.contacto{
+    padding:40px 15px;
+}
+
+/* TITULO */
+.titulo-contacto{
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+/* FORMULARIO */
+.formulario{
+    width:100%;
+    gap:15px;
+}
+
+/* INPUTS */
+.formulario input,
+.formulario textarea{
+    padding:14px;
+    font-size:16px;
+}
+
+/* TEXTAREA */
+.formulario textarea{
+    height:160px;
+}
+
+/* BOTON */
+.formulario button{
+    width:100%;
+    font-size:16px;
+    padding:15px;
+}
+
+}

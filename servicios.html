@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="movil_servicios.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="carrousel2.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="encabezado ancho">
+      <nav>
+        <ul class="opciones">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="acerca.html">About</a></li>
+          <li><a class="activo" href="servicios.html">Services</a></li>
+          <li><a href="contacto.html">Contact</a></li>
+        </ul>
+
+        <figure class="logo">
+          <img src="imagenes/logo-default-86x29.svg" alt="" />
+        </figure>
+
+        <div class="hamburguesa">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="telefono">
+          <i class="fa-solid fa-phone"></i>
+          <p>+1 234 567 8901</p>
+        </div>
+      </nav>
+    </header>
+    <section class="articulo ancho">
+      <article>
+        <h2 class="cajatxt">lorem ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          laudantium facilis excepturi fugiat animi aliquid voluptatibus cum
+          quis minus ab dignissimos eligendi nobis, eum placeat consequatur odio
+          esse, maiores porro!
+        </p>
+      </article>
+      <img class="foto" src="imagenes/imagen1.jpg" alt="" />
+    </section>
+    <!-- SERVICIOS -->
+    <br />
+    <button id="abrirModal" class="btn-modal">Open Modal</button>
+    <section id="modal" class="modal">
+      <div class="modal-contenido">
+        <span id="cerrarModal" class="cerrar">&times;</span>
+
+        <span class="etiqueta-descuento"> 25% OFF </span>
+
+        <h2>Boost Your Business Today</h2>
+
+        <p class="texto-modal">
+          Get a <strong>25% discount</strong> on your first business solution
+          package.
+        </p>
+
+        <div class="servicios-modal">
+          <article>
+            <i class="fa-solid fa-scale-balanced"></i>
+            <h3>Business Lawyers</h3>
+            <p>Professional legal guidance for your company.</p>
+          </article>
+
+          <article>
+            <i class="fa-solid fa-globe"></i>
+            <h3>International Trade</h3>
+            <p>Experts in import/export and global operations.</p>
+          </article>
+
+          <article>
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Marketing Experts</h3>
+            <p>Grow your brand with modern digital strategies.</p>
+          </article>
+        </div>
+
+        <a href="#" class="btn-modal"> Get Started </a>
+      </div>
+    </section>
+    <section class="services ancho">
+      <h2 class="wow animate__animated animate__fadeInUp">OUR SERVICES</h2>
+
+      <div class="contenedor-services">
+        <article
+          class="service wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <i class="fa-solid fa-house-chimney"></i>
+
+          <div class="info-service">
+            <h3>BUILDING INFORMATION MODELING</h3>
+            <p>
+              Oftentimes physical and functional essence of any construction
+              project needs to be represented digitally.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="service wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.2s"
+        >
+          <i class="fa-solid fa-igloo"></i>
+
+          <div>
+            <h3>CONSTRUCTION SERVICES</h3>
+
+            <p>
+              Our customers love the pace and quality tempo during each
+              construction process.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="service wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          <i class="fa-solid fa-ruler-combined"></i>
+
+          <div class="info-service">
+            <h3>PRO-CONSTRUCTION SERVICES</h3>
+
+            <p>We take our time on planning before any construction begins.</p>
+          </div>
+        </article>
+
+        <article
+          class="service wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.4s"
+        >
+          <i class="fa-solid fa-pen-ruler"></i>
+
+          <div>
+            <h3>DESIGN-BUILD</h3>
+
+            <p>
+              If a project is not too complex, we may hire a designer-builder
+              contractor.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="service wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.5s"
+        >
+          <i class="fa-solid fa-building"></i>
+
+          <div>
+            <h3>CONSTRUCTION MANAGEMENT</h3>
+
+            <p>
+              Construction project management is essential for any large-scale
+              building.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="service wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.6s"
+        >
+          <i class="fa-solid fa-users"></i>
+
+          <div>
+            <h3>GENERAL CONTRACTING</h3>
+
+            <p>
+              We have a long list of professional contractors for all project
+              needs.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <br />
+    <!-- video -->
+    <section class="video-section ancho">
+      <div class="video-info">
+        <h2>Our Corporate Presentation</h2>
+
+        <p>
+          Learn more about our services, business strategies, and how we help
+          companies grow worldwide.
+        </p>
+      </div>
+
+      <div class="video-responsive">
+        <iframe
+          src="https://www.youtube.com/embed/u8w1PMwptUw"
+          title="YouTube video"
+          frameborder="0"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </section>
+    <section class="galeria-team ancho margen">
+
+  <h1>Our Team</h1>
+
+  <article class="team-grid">
+
+    <figure class="team-item">
+      <a href="imagenes/acerca1.jpg" data-fancybox="gallery">
+        <img src="imagenes/acerca1.jpg" alt="">
+      </a>
+    </figure>
+
+    <figure class="team-item">
+      <a href="imagenes/acerca5.jpg" data-fancybox="gallery">
+        <img src="imagenes/acerca5.jpg" alt="">
+      </a>
+    </figure>
+
+    <figure class="team-item">
+      <a href="imagenes/acerca3.jpg" data-fancybox="gallery">
+        <img src="imagenes/acerca3.jpg" alt="">
+      </a>
+    </figure>
+    <figure class="team-item">
+      <a href="imagenes/acerca2.jpg" data-fancybox="gallery">
+        <img src="imagenes/acerca2.jpg" alt="">
+      </a>
+    </figure>
+     <figure class="team-item team-item-wide">
+      <a href="imagenes/acerca4.jpg" data-fancybox="gallery">
+        <img src="imagenes/acerca4.jpg" alt="">
+      </a>
+    </figure>
+
+  </article>
+
+</section>
+       <br />
+    <button id="btnTop" class="btn-top">↑</button>
+    <footer class="pie">
+      <!-- COPYRIGHT -->
+      <div class="copy-pie">
+        <p>
+          © 2020 Zenix. All rights reserved.
+          <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+      <!-- REDES -->
+      <div class="redes-pie">
+        <a href="#">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="wow.min.js"></script>
+    <script src="funciones.js"></script>
+    <script src="carrousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+    <script>
+      Fancybox.bind("[data-fancybox]", {});
+    </script>
+  </body>
+</html>

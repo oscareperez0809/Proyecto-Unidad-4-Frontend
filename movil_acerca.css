@@ -1,0 +1,257 @@
+@media (max-width:430px){
+
+/* CONTENEDOR GENERAL */
+.ancho{
+    width:95%;
+}
+
+/*  HEADER  */
+
+.encabezado{
+    padding:15px;
+    position:relative;
+}
+
+.encabezado nav{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+/* LOGO */
+.logo{
+    position:static;
+    transform:none;
+}
+
+/* MENU */
+.opciones{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:white;
+    padding:20px;
+    z-index:999;
+}
+
+.opciones.show{
+    display:flex;
+}
+
+/* HAMBURGUESA */
+.hamburguesa{
+    display:block;
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:30px;
+    cursor:pointer;
+}
+
+/* TELEFONO */
+.telefono{
+    display:none;
+}
+
+/*ARTICULO  */
+
+.articulo{
+    flex-direction:column;
+    padding:10px;
+}
+
+.articulo article{
+    width:100%;
+}
+
+.foto{
+    width:100%;
+    height:auto;
+}
+
+/* TITULO GRANDE */
+.cajatxt{
+    font-size:32px;
+    line-height:45px;
+}
+
+/* VISION  */
+
+.info{
+    flex-direction:column;
+    gap:30px;
+    padding:20px;
+}
+
+.titulo h2{
+    font-size:35px;
+    line-height:45px;
+}
+
+.info .cajatxt{
+    font-size:28px;
+    line-height:40px;
+}
+
+/* VALUES */
+
+.encabezado-valores{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.encabezado-valores h2{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.encabezado-valores p{
+    font-size:18px;
+    line-height:35px;
+}
+
+/* CONTENEDOR */
+.contenedor-valores{
+    flex-direction:column;
+    gap:25px;
+}
+
+/* IZQUIERDA */
+.info-izquierda{
+    width:100%;
+}
+
+/* LISTA */
+.lista-valores{
+    width:100%;
+}
+
+.lista-valores li{
+    font-size:28px;
+    padding:15px 0;
+}
+
+/* DERECHA */
+.info-derecha{
+    width:100%;
+}
+
+/* CAJA TEXTO */
+.contenido-valor{
+    width:100%;
+    min-height:auto;
+    padding:30px 20px;
+    font-size:22px;
+    line-height:40px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+/*  PARTNERS  */
+
+.partners{
+    flex-direction:column;
+    gap:30px;
+}
+
+.logos{
+    grid-template-columns:1fr;
+    width:100%;
+}
+
+.logo-caja img{
+    width:100%;
+    height:auto;
+}
+
+/* ================= PRESS ================= */
+/* CONTENEDOR PRENSA */
+#slide-container-press{
+    display:flex;
+}
+
+/* UNA OPINION POR VEZ */
+.press-slide{
+    min-width:100%;
+    box-sizing:border-box;
+}
+.press{
+    padding:40px 15px;
+}
+
+.press-titulo{
+    font-size:35px;
+    text-align:center;
+}
+
+/* UNA CARD */
+.press-slide{
+    min-width:100%;
+}
+
+.press-texto{
+    font-size:18px;
+    line-height:30px;
+}
+
+.press-info{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:5px;
+}
+
+/* ================= TEAM ================= */
+
+.team{
+    padding:40px 15px;
+}
+
+.team-titulo h2{
+    font-size:35px;
+}
+
+.team-contenedor{
+    flex-direction:column;
+}
+
+.team-card{
+    width:100%;
+}
+
+/* IMAGEN */
+.team-card img{
+    height:auto;
+}
+
+/* HOVER FIJO EN MOVIL */
+.team-card img{
+    filter:brightness(70%);
+}
+
+.team-card h3{
+    color:var(--naranja);
+}
+
+/* ICONO */
+.team-card i{
+    display:block;
+    margin-top:15px;
+    font-size:22px;
+    color:var(--naranja);
+}
+/* FOOTER MOVIL  */
+
+.pie{
+    flex-direction:column;
+    text-align:center;
+    padding:25px 15px;
+}
+
+.redes-pie{
+    justify-content:center;
+    margin-left:20px;
+}
+}

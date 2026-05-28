@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="movil_contacto.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+     <link rel="stylesheet" href="carrousel2.css" />
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="encabezado ancho">
+      <nav>
+         <ul class="opciones">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="acerca.html">About</a></li>
+  <li><a href="servicios.html">Services</a></li>
+  <li><a class="activo" href="contacto.html">Contact</a></li>
+</ul>
+        <figure class="logo">
+          <img src="imagenes/logo-default-86x29.svg" alt="" />
+        </figure>
+        <div class="hamburguesa">
+          <i class="fas fa-bars"></i>
+        </div>
+          <div class="telefono">
+          <i class="fa-solid fa-phone"></i>
+          <p>+1 234 567 8901</p>
+        </div>
+      </nav>
+    </header>
+  <section class="contacto ancho">
+
+  <h2 class="titulo-contacto">Contact Us</h2>
+
+  <form id="formulario" class="formulario" novalidate>
+
+    <input type="text" id="nombre" placeholder="Your Name">
+
+<input type="text" id="correo" placeholder="Your Email">
+
+    <input type="text" id="asunto" placeholder="Subject">
+
+    <textarea id="mensaje" placeholder="Your Message"></textarea>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+
+</section>
+<script src="funciones.js"></script>
+    </body>
+  </html>
